@@ -3,7 +3,7 @@ description: Generates a summary of user activity for an organization
 author: Peter Murray
 
 inputs:
-  token:
+  token: ${{ secrets.GITHUB_TOKEN }}
     description: GitHub Access Token with permissions for accesing Repositories and Organization data.
     required: true
 
